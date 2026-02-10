@@ -55,7 +55,7 @@ Shows the relationship between wind parameters and actual power output.
 
 Visual comparison between predicted and actual turbine power.
 
-<p align="center"> <img src="assets/images/actual_vs_predicted.png" width="600"/> </p>
+<p align="center"> <img src="assets/images/model_performance.png" width="600"/> </p>
 🔹 R² Score
 
 The trained Random Forest model achieved a strong R² score, indicating high predictive accuracy.
