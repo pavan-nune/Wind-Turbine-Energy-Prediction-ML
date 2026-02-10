@@ -99,35 +99,7 @@ Seaborn
 
 OpenWeatherMap API
 
-📂 Project Structure
-Wind_Turbine_Energy_Prediction/
-│
-├── Flask/
-│   ├── templates/
-│   │   ├── home.html
-│   │   ├── weather.html
-│   │   └── predict.html
-│   ├── static/
-│   │   └── images/
-│   └── windApp.py
-│
-├── model/
-│   └── train_model.ipynb
-│
-├── dataset/
-│   └── wind_data.csv
-│
-├── assets/
-│   └── images/
-│       ├── home_page.png
-│       ├── weather_page.png
-│       ├── prediction_page.png
-│       ├── correlation_heatmap.png
-│       ├── actual_vs_predicted.png
-│       └── r2_score.png
-│
-├── README.md
-└── .gitignore
+
 
 ⚠️ Model File Notice (IMPORTANT)
 
