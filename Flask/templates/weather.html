@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Conditions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body style="background-image: url('{{ url_for('static', filename='bg-weather.jpg') }}');">
+
+<div class="center" style="min-height:100vh;">
+    <div class="glass" style="width:420px;">
+        <h2>☁ Weather Conditions</h2>
+
+        <form method="post">
+            <input type="text" name="city" placeholder="Enter City Name" required>
+            <button class="btn" type="submit">Get Weather Data</button>
+        </form>
+
+      {% if weather_data %}
+<div class="result">
+    <p><b>City:</b> {{ weather_data.city }}</p>
+    <p><b>Temperature:</b> {{ weather_data.temperature }} °C</p>
+    <p><b>Humidity:</b> {{ weather_data.humidity }} %</p>
+    <p><b>Pressure:</b> {{ weather_data.pressure }} hPa</p>
+    <p><b>Wind Speed:</b> {{ weather_data.wind_speed }} m/s</p>
+    <p><b>Condition:</b> {{ weather_data.condition }}</p>
+</div>
+{% endif %}
+
+{% if error %}
+<div class="error">{{ error }}</div>
+{% endif %}
+
+
+        <div style="margin-top:20px;">
+            <a href="/predict">→ Proceed to Energy Prediction</a><br>
+            <a href="/">← Back to Home</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wind Energy Intelligence</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body style="background-image: url('{{ url_for('static', filename='bg-home.jpg') }}');">
+
+<div class="center" style="min-height:100vh;">
+    <div class="glass" style="width:420px; text-align:center;">
+        <h1>🌬 Wind Energy<br>Intelligence Platform</h1>
+        <p style="margin:20px 0; opacity:0.9;">
+            Predict wind turbine energy output using machine learning and real-time weather data.
+        </p>
+
+       <div style="margin-top: 25px;">
+    <a href="/weather">
+        <button class="btn">Predict Weather</button>
+    </a>
+</div>
+
+<div style="margin-top: 15px;">
+    <a href="/predict">
+        <button class="btn">Predict Energy</button>
+    </a>
+</div>
+
+        <div style="margin-top:25px; font-size:13px; opacity:0.85;">
+            ⭐ R² Accuracy: <b>0.90</b><br>
+            🌐 Live Weather API
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
