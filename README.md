@@ -49,7 +49,7 @@ Evaluation Metric: R² Score
 
 Shows the relationship between wind parameters and actual power output.
 
-<p align="center"> <img src="assets/images/correlation_heatmap.png" width="600"/> </p>
+<p align="center"> <img src="project_files/assets/images/correlation_heatmap.png" width="600"/> </p>
 📈 Model Performance Evaluation
 🔹 Actual vs Predicted Power Output
 
@@ -60,14 +60,14 @@ Visual comparison between predicted and actual turbine power.
 
 The trained Random Forest model achieved a strong R² score, indicating high predictive accuracy.
 
-<p align="center"> <img src="assets/images/r2_score.png" width="400"/> </p>
+<p align="center"> <img src="project_files/assets/images/r2_score.png" width="400"/> </p>
 🌐 Web Application Interface
 🏠 Home Page
-<p align="center"> <img src="assets/images/home_page.png" width="700"/> </p>
+<p align="center"> <img src="project_files/assets/images/home_page.png" width="700"/> </p>
 ☁️ Weather Information Page
-<p align="center"> <img src="assets/images/weather_page.png" width="700"/> </p>
+<p align="center"> <img src="project_files/assets/images/weather_page.png" width="700"/> </p>
 ⚡ Energy Prediction Page
-<p align="center"> <img src="assets/images/prediction_page.png" width="700"/> </p>
+<p align="center"> <img src="project_files/assets/images/prediction_page.png" width="700"/> </p>
 🛠️ Technology Stack
 🔹 Frontend
 
