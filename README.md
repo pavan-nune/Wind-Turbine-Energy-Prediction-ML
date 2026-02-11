@@ -138,9 +138,7 @@ http://127.0.0.1:5000
 
 🔹 Project Report (PDF): [https://drive.google.com/file/d/1b4138fJT9GzXDmfekAQay7LN7aUtEmRx/view?usp=drivesdk]
 🔹 Demo Video: [Link will be added here]
-🔹 Presentation Slides: [Link will be added here]
 
-(These placeholders are intentionally kept for future updates.)
 
 📌 Future Enhancements
 
