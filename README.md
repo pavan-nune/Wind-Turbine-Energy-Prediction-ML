@@ -120,6 +120,7 @@ This will generate model.sav locally
 The Flask application loads the model from the local system during execution.
 
 ▶️ How to Run the Project
+
 1️⃣ Clone the Repository
 git clone https://github.com/pavan-nune/Wind-Turbine-Energy-Prediction-ML.git
 cd Wind_Turbine_Energy_Prediction
@@ -137,6 +138,7 @@ http://127.0.0.1:5000
 📎 Future Documentation & References (To Be Added)
 
 🔹 Project Report (PDF): [https://drive.google.com/file/d/1b4138fJT9GzXDmfekAQay7LN7aUtEmRx/view?usp=drivesdk]
+
 🔹 Demo Video: [Link will be added here]
 
 
