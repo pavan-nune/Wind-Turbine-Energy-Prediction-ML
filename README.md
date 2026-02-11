@@ -38,8 +38,6 @@ Wind Speed (m/s)
 
 Theoretical Power (kW)
 
-Wind Direction (°)
-
 Target Variable: Actual Power Output (kW)
 
 Evaluation Metric: R² Score
