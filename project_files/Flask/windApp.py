@@ -73,10 +73,10 @@ def predict():
         try:
             wind_speed = float(request.form.get("wind_speed"))
             theoretical_power = float(request.form.get("theoretical_power"))
-            wind_direction = float(request.form.get("wind_direction"))
+            
 
             prediction = round(
-                model.predict([[wind_speed, theoretical_power, wind_direction]])[0],
+                model.predict([[wind_speed, theoretical_power]])[0],
                 2
             )
 
