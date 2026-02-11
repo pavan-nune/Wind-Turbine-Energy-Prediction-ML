@@ -60,7 +60,6 @@ def weather():
         weather_data=weather_data,
         error=error
     )
-
 # ===============================
 # ENERGY PREDICTION PAGE
 # ===============================
@@ -71,17 +70,22 @@ def predict():
 
     if request.method == "POST":
         try:
-            wind_speed = float(request.form.get("wind_speed"))
-            theoretical_power = float(request.form.get("theoretical_power"))
-            
+            wind_speed = request.form.get("wind_speed")
+            theoretical_power = request.form.get("theoretical_power")
 
-            prediction = round(
-                model.predict([[wind_speed, theoretical_power]])[0],
-                2
-            )
+            # Validate empty input
+            if not wind_speed or not theoretical_power:
+                raise ValueError("Missing input")
 
-        except Exception as e:
-            error = "Invalid input. Please enter numeric values."
+            wind_speed = float(wind_speed)
+            theoretical_power = float(theoretical_power)
+
+            # Model prediction
+            result = model.predict([[wind_speed, theoretical_power]])
+            prediction = round(result[0], 2)
+
+        except Exception:
+            error = "⚠️ Please enter valid numeric values."
 
     return render_template(
         "predict.html",
