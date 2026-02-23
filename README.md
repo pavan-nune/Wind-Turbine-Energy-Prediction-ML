@@ -139,7 +139,7 @@ http://127.0.0.1:5000
 
 🔹 Project Report (PDF): [https://drive.google.com/drive/folders/1DW1r5TKvt_U-wlBP_THgEFKaLpRBn-c_]
 
-🔹 Demo Video: [Link will be added here]
+🔹 Demo Video: [https://drive.google.com/file/d/1RJr2AnBVxVsfxWL0XG6XHb9jIbzBhh0Q/view?usp=drive_link]
 
 
 📌 Future Enhancements
