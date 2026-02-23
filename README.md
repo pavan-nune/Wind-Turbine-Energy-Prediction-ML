@@ -22,7 +22,7 @@ This project uses a Random Forest Regression model trained on wind turbine data 
 
 ☁️ Real-time Weather Data Integration
 
-📊 High Model Accuracy (R² ≈ 0.90)
+📊 High Model Accuracy (R² ≈ 0.86)
 
 🌐 Interactive Web Application (Flask)
 
